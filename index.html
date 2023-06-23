@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body{
+            background-color: #9BCCFD;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            display: grid;
+            place-items: left;
+            min-height: 50vh;
+            position: relative;
+            left: 10px;
+        }
+        #anchor{
+            height: 500px;
+            width:auto
+        }
+        #eyes, #eyes img{
+            height: 36px;
+            width: auto;
+            position: absolute;
+            
+        }
+               
+    </style>
+</head>
+<body>
+    <main>
+        <img src="rick2.png" alt="image" id="anchor">
+        <div id="eyes">
+           <img src="eye.png" alt="image"  class="eye" style="top: 321px; left: 205px;">
+           <img src="eye.png" alt="image"  class="eye" style="top: 308px;left: 275px;">
+           <img src="eye.png" alt="image"  class="eye" style="top: 168px;left: 367px;">
+           <img src="eye.png" alt="image"  class="eye" style="top: 165px;left: 433px;">
+        </div>
+    </main>
+    <div class="wrapper">
+        <img src="clock4" alt="image">
+        <h1  id="font">04:10:20</h1>
+        <div class="content">
+            <div class="column">
+                <select id="down">
+                    <option value="Hour" selected hidden>Hour</option>
+                    
+
+                </select>
+            </div>
+            <div class="column">
+                <select id="middle">
+                    <option value="Minute" selected hidden>Minute</option>
+                             </select>
+            </div>
+            <div class="column">
+                <select id="last">
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+                    
+                </select>
+            </div>
+            
+        </div>
+        <button id="btn">Set Alarm</button>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+<script src="try.js"></script>
+</html>
