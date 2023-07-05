@@ -67,4 +67,33 @@ top: -15px;
   opacity:0.5;
   pointer-events: none;
 }
-
+@media only screen and (max-width:1008px){
+  body{
+    background-color: orange;
+  }
+  .wrapper{
+    left: 220px;
+  }
+  #anchor{
+    opacity: 0;;
+  }
+  #eyes{
+    opacity: 0;
+  }
+}
+@media only screen and (max-width:641px){
+  body{
+    background-color: tan;
+  }
+  .wrapper{
+    left: 146px;
+  }
+}
+@media only screen and (max-width:640px){
+  body{
+    background-color: lightgreen;
+  }
+  .wrapper{
+    left: 90px;
+  }
+}
