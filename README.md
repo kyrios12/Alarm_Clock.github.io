@@ -9,13 +9,8 @@ Simple alarm clock project for front end practise. Enjoy and interact with proxi
 
 ## Getting Started
 
-1. Clone the repository: [GIT Repo](https://github.com/kyrios12/Alarm_Clock.github.io)
-2. Project live Demo: (http://localhost:4200/](http://localhost:4200/).
-
-## Running Unit Tests
-
-Run `ng test` to execute the unit tests via Karma.
-
+1. Clone the repository: (https://github.com/kyrios12/Alarm_Clock.github.io)
+2. Project live Demo: (http://localhost:4200/](https://kyrios12.github.io/Alarm_Clock.github.io/).
 ## High-Level Design
 
 ### Product Module
