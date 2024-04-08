@@ -11,7 +11,7 @@ Simple alarm clock project for front end practise. Enjoy and interact with proxi
 
 1. Clone the repository: (https://github.com/kyrios12/Alarm_Clock.github.io)
 2. Project live Demo: (http://localhost:4200/](https://kyrios12.github.io/Alarm_Clock.github.io/).
-## High-Level Design
+## Screenshots
 
 ![image](https://github.com/kyrios12/Alarm_Clock.github.io/assets/103828615/167e0931-c0fe-4c9a-a80a-a79116576004)
 
